@@ -1,0 +1,386 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    overflow-x: hidden;
+    background-color: 		#E0E0E0;
+}
+.navbar-brand{
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 550;
+    margin: 1.2vw;
+    color: black;
+}
+.home{
+    width: 100%;
+    height: 70vw;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.6)), url(images/pila.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home .container {
+    
+    position: relative;
+    top: 50%;
+    text-align: center;
+}
+.home .container h1{
+    font-size: 6vw;
+    color: white;
+    font-weight: bold;
+    font-family: Lato; 
+}
+
+.home .container h2{
+    font-size: 2vw;
+    font-weight: bold;
+    color: white;
+    font-family: sans-serif;
+}
+.nav-item .nav-link{
+    color: black;
+}
+.nav-item .nav-link:hover{
+    color: black;
+}
+.b1 .container{
+    background-color: White;
+    width: 85vw;
+    height: 100vw;
+    text-align: center;
+    justify-content: center;
+}
+.b1 .container .main-text{
+    position: relative;
+    top: 9vw;
+    text-align: center;
+    margin: auto;
+    width: 50vw;
+    padding: 1.5vw;
+    outline: solid black;
+}
+.b1 .container .main-text h1{
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 3.5vw;
+    color: black;
+}
+.form-control:focus{
+    box-shadow: solid black;
+}
+.m1{
+    outline: solid white;
+    padding: 0.10vw;
+    width: 70vw;
+    margin: auto;
+}
+
+
+.f_name1{
+    position: relative;
+    top: 11vw;
+}
+.f_name1 h2{
+    
+    font-size: 4vw;
+    font-weight:500;
+    font-family: sans-serif;
+    color: black;
+}
+.pixxa{
+    display: flex;
+    justify-content: center;
+    
+}
+.pizza{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 10.5vw;
+    width: 75vw;
+    height: 30vw;
+}
+.pic1{
+    box-shadow: 0.2vw 0.2vw rgba(0,0,0,0.6);
+    height: 30vw;
+    width: 24vw;
+}
+
+.p_img{
+    position: relative;
+    top: 0vw;
+    left: 0vw;
+    height: auto;
+    width: 24vw;
+}
+.l_name{
+    position: relative;
+    top: 1.3vw;
+    color: black;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 3vw;
+}
+
+.f_name2{
+    position: relative;
+    top: 12vw;
+}
+.f_name2 h2{
+    
+    font-size: 4vw;
+    font-weight:500;
+    font-family: sans-serif;
+    color: black;
+}
+.Burgerr{
+    display: flex;
+    justify-content: center;
+    
+}
+.Burger{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 11.5vw;
+    width: 75vw;
+    height: 30vw;
+}
+.pic2{
+    box-shadow: 0.2vw 0.2vw rgba(0,0,0,0.6);
+    height: 30vw;
+    width: 24vw;
+}
+
+.p_img1{
+    position: relative;
+    top: 0vw;
+    left: 0vw;
+    height: auto;
+    width: 24vw;
+}
+.l_name1{
+    position: relative;
+    top: 1.3vw;
+    color: black;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 3vw;
+}
+
+.about_us .box{
+    background-color: black;
+    width: 100%;
+    height: 30vw;
+}
+.about_us .box .container .abt_name{
+    position: relative;
+    top: 2vw;
+    text-align: center;
+    outline: solid white;
+    padding: 0.10vw;
+    width: 30vw;
+    margin: auto;
+}
+.about_us .box .container .abt_name h2{
+    color: white;
+    font-size: 3vw;
+    
+}
+.con1{
+    display: flex;
+    justify-content: start;
+    position: relative;
+    top: 3vw;
+}
+._0con1{
+    height: 20vw;
+    width: 50vw;
+}
+._0con2{
+    height: 20vw;
+    width: 37.2vw;
+}
+.g3{
+    position: relative;
+    top: 1vw;
+    left: 0vw;
+    width: auto;
+    height: 18vw;
+    border-radius: 1vw;
+}
+.a_l_name{
+    position: absolute;
+    top: 2vw;
+    left: 25vw;
+    text-align: start;
+    width: 24vw;
+}
+.a_l_name p{
+    position: relative;
+    color: white;
+    font-size: 1.25vw;
+    font-family: sans-serif;
+}
+.a_l_name1{
+    position: relative;
+    color: white;
+    left: 1.5vw;
+    top: 3.5vw;
+    font-family: sans-serif; 
+}
+._0con2 .a_l_name1 h4{
+    font-size: 2vw;
+    font-weight: 500;
+}
+._0con2 .a_l_name1 span{
+    font-size: 1.5vw;
+    font-weight: 300;
+}
+
+
+.fa {
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    padding-right: 2.5vw;
+    padding-left: 1.5vw;
+    font-size: 2vw;
+    width: 3vw;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 120vw;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+.fb{
+    position: relative;
+    top: 5vw;
+    left: 10vw;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  #twi {
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    padding-right: 2.8vw;
+    padding-left: 1.2vw;
+    font-size: 2vw;
+    width: 3vw;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 120vw;
+    margin-left: 2vw;
+}
+
+@media only screen and (max-width: 767.5px){
+    .pizza{
+        height: 150vw;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+    }
+    .b1 .container{
+        height: 340vw;
+    }
+    .pic1{
+        height: 45vw;
+        width: 39vw;
+    }
+    .p_img{
+        height: 38vw;
+        width: auto;
+    }
+    .Burger{
+        height: 150vw;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+    }
+    .pic2{
+        height: 45vw;
+        width: 39vw;
+    }
+    .p_img1{
+        height: 38vw;
+        width: auto;
+    }
+    .about_us .box{
+        height: 70vw;
+    }
+    .con1{
+        height: 60vw;
+        display: flex;
+        flex-direction: column;
+    }
+    ._0con1{
+        width: 100%;
+        height: 50vw;
+        justify-content: center;
+        display: flex;
+    }
+    .g3{
+        position: relative;
+        width: auto;
+        height: 28vw;
+    }
+    ._0con2{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .a_l_name1{
+        height: 0vw;
+        width: auto;
+        position: relative;
+        left: 5vw;
+        top: 5vw;
+        font-size: 3vw;
+    }
+    ._0con2 .a_l_name1 h4{
+        font-size: 3vw;
+        font-weight: 500;
+    }
+    ._0con2 .a_l_name1 span{
+        font-size: 2.5vw;
+        font-weight: 300;
+    }
+    .fb{
+        position: relative;
+        left: -25vw;
+        top: 10vw;
+        height: 10vw;
+    }
+    .g33{
+        width: auto;
+        position: relative;
+        left: -34vw;
+    }
+    .a_l_name{
+        text-align: center;
+        left: 19vw;
+        width: 100%;
+        position: relative;
+        top: 34vw;
+        height: 20vw;
+    }
+    .a_l_name p{
+        font-size: 2vw;
+        width: 70vw;
+    }
+}
